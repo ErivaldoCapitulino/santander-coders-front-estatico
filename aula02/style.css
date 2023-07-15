@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+:root {
+    --primary-color: #7ebff2;
+    --secondary-color: #4a87ec;
+    --tertiary-color: #7073ec;
+    --White-color: #fff;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+.primary, .primary-button {
+    background: var(--primary-color);
+    color: var(--White-color);
+}
+
+.secondary, .secondary-button {
+    background-color: var(--secondary-color);
+    color: var(--White-color);
+}
+
+.tertiary, .tertiary-button {
+    background: var(--tertiary-color);
+    color: var(--White-color);
+}
+
+.primary-button, .secondary-button, .tertiary-button {
+    padding: 0.31rem 0.62rem;
+    border: none;
+}
+
+.money {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+table {
+    border-collapse: collapse;
+    letter-spacing: 0.06rem;
+    margin: 10% auto;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 0.31rem 0.62rem;
+}
+
+.easy {
+    border: none;
+}
