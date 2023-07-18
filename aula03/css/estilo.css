@@ -38,7 +38,16 @@ input:focus {
 	outline:none;
 }
 
+input.lado {
+	display: inline-block;
+}
+
+.tamanho {
+	width: 300px;
+}
+
 .button{
+	display: block;
 	padding: 10px 20px;
 	background: #c63;
 	border: none;

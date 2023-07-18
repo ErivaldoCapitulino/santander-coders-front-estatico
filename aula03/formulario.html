@@ -13,27 +13,27 @@
     <h2>Formulário de Cadastro</h2>
     <form action="destino.html" method="post" class="form">
 
-        <input type="text" name="nome" id="nome" size="30" maxlength="100" required autofocus placeholder="Insira seu nome">
+        <input class="tamanho" type="text" name="nome" id="nome" size="30" maxlength="100" required autofocus placeholder="Insira seu nome">
 
         <label for="telefone">Telefone</label>
-        <input type="tel" name="telefone" id="telefone" size="30" maxlength="30">
+        <input class="tamanho" type="tel" name="telefone" id="telefone" size="30" maxlength="30">
 
         <label for="nascimento">Nascimento</label>
-        <input type="date" name="nascimento" id="nascimento" size="30" maxlength="30">
+        <input class="tamanho" type="date" name="nascimento" id="nascimento" size="30" maxlength="30">
 
         <label for="idade">Idade</label>
-        <input type="number" name="idade" id="idade" size="30" maxlength="30">
+        <input class="tamanho" type="number" name="idade" id="idade" size="30" maxlength="30">
 
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" size="30" maxlength="60" required>
+        <input class="tamanho" type="email" name="email" id="email" size="30" maxlength="60" required>
 
         <label for="senha">Senha</label>
-        <input type="password" name="senha" id="senha" size="30" maxlength="60">
+        <input class="tamanho" type="password" name="senha" id="senha" size="30" maxlength="60">
 
 
         <label for="termos">
+            <input class="lado" type="checkbox" name="termos" id="termos" value="assinado">
             Concordo com os termos
-            <input type="checkbox" name="termos" id="termos" value="assinado">
         </label>
 
         <button class="button">Enviar</button>
