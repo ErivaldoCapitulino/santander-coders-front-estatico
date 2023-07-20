@@ -6,5 +6,5 @@ function changeAriaLabel(newLabel) {
 }
 
 btnEnviar.addEventListener("click", function () {
-  changeAriaLabel("Reiviar");
+  changeAriaLabel("Botão para reenviar o formulário");
 });
