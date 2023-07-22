@@ -4,6 +4,6 @@
 
 Objetivo do exercício é construir uma página de cardápio/catálogo digital de pizza.
 
-![Alt text](image.png)
+![Alt text](assets/img/image.png)
 
-![Alt text](image-1.png)
+![Alt text](assets/img/image-1.png)
