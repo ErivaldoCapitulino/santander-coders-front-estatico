@@ -31,7 +31,7 @@ h1 {
   margin: 5px 3px;
 }
 
-.containe1 {
+.container {
   display: grid;
   grid-template-columns: 1fr;
 }
