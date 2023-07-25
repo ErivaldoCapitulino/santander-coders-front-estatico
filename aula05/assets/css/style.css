@@ -1,217 +1,209 @@
 :root {
-    --color-title-backgroud: #67AD5B;
-    --color-title-backgroud-hover: #314A2D;
-    --color-title-catalog: #fff;
-    --color-text: #111;
-    --color-main-border: #E5DFDF;
-    --color-nav-main: #EEEEEE;
-    --color-box-product: #969292;
+  --color-title-backgroud: #67ad5b;
+  --color-title-backgroud-hover: #314a2d;
+  --color-title-catalog: #fff;
+  --color-text: #111;
+  --color-main-border: #e5dfdf;
+  --color-nav-main: #eeeeee;
+  --color-box-product: #969292;
 
-    --color-rgba: rgba(0, 0, 0, 0.15);
+  --color-rgba: rgba(0, 0, 0, 0.15);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400&display=swap");
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Resert */
 
 body {
-    margin: 0;
-    color: var(--color-text);
-    font-family: 'Inter', sans-serif;
+  margin: 0;
+  color: var(--color-text);
+  font-family: "Inter", sans-serif;
 }
 
 p,
 h3,
 figure {
-    margin: 0;
+  margin: 0;
 }
 
 figure {
-    vertical-align: baseline;
+  vertical-align: baseline;
 }
-
 
 /* Header */
 
 header {
-    text-align: center;
+  text-align: center;
 }
 
-
-
 nav {
-    background: var(--color-nav-main);
-    padding: 1rem;
+  background: var(--color-nav-main);
+  padding: 1rem;
 }
 
 nav a {
-    text-decoration: none;
-    color: var(--color-text);
-    padding: 0.8rem;
+  text-decoration: none;
+  color: var(--color-text);
+  padding: 0.8rem;
 }
 
 nav a:hover {
-    border-bottom: 3px solid var(--color-title-backgroud);
+  border-bottom: 3px solid var(--color-title-backgroud);
 }
 
 main {
-    background: #E5DFDF;
+  background: #e5dfdf;
 }
 
 .titleCatalog {
-    background: var(--color-title-backgroud);
-    padding: 1.3rem;
-    color: var(--color-title-catalog);
+  background: var(--color-title-backgroud);
+  padding: 1.3rem;
+  color: var(--color-title-catalog);
 }
 
 /*  */
 
 .sticky {
-    background: var(--color-title-catalog);
-    position: sticky;
-    top: 0;
-    width: 100%;
-    padding-block: 1rem;
-    z-index: 1;
+  background: var(--color-title-catalog);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding-block: 1rem;
+  z-index: 1;
 }
 
 .item {
-    margin: 1rem 0;
-    position: relative;
+  margin: 1rem 0;
+  position: relative;
 }
 
 .item::after {
-    display: block;
-    content: "";
-    min-width: 100%;
-    border: 1px solid var(--color-rgba);
+  display: block;
+  content: "";
+  min-width: 100%;
+  border: 1px solid var(--color-rgba);
 }
 
 .product {
-    background: var(--color-title-catalog);
-    margin: 0 20%;
-    border: 1px solid var(--color-rgba);
-    box-shadow: 0 0 1px var(--color-box-product);
-    padding-left: 20px;
-    padding-right: 20px;
-    position: relative;
+  background: var(--color-title-catalog);
+  margin: 0 20%;
+  border: 1px solid var(--color-rgba);
+  box-shadow: 0 0 1px var(--color-box-product);
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
 }
 
 .itemProduct {
-    margin: none;
+  margin: none;
 }
 
 figure {
-    width: 80px;
-    height: 80px;
+  width: 80px;
+  height: 80px;
 }
 
 figure img {
-    max-width: 100%;
-    display: block;
-    border-radius: 4px;
+  max-width: 100%;
+  display: block;
+  border-radius: 4px;
 }
 
-
 .itemProduct {
-    display: grid;
-    grid-template-columns: 90px 1fr;
+  display: grid;
+  grid-template-columns: 90px 1fr;
 }
 
 .itemProduct div {
-    display: grid;
-    align-content: center;
-    gap: 10px;
+  display: grid;
+  align-content: center;
+  gap: 10px;
 }
-
-
 
 /* Tabela */
 table {
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
-    min-width: 100%;
-    box-shadow: 0 0 20px var(--color-rgba);
-    position: relative;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 100%;
+  box-shadow: 0 0 20px var(--color-rgba);
+  position: relative;
 }
 
 table,
 tr,
 th,
 td {
-    padding: 10px;
-    border: 1px solid var(--color-rgba);
+  padding: 10px;
+  border: 1px solid var(--color-rgba);
 }
 
 th:nth-child(n) {
-    background: var(--color-nav-main);
+  background: var(--color-nav-main);
 }
-
 
 /* Formulário */
 
 .border {
-    background: var(--color-title-catalog);
-    box-shadow: 0 0 20px var(--color-rgba);
-    border: 1px solid var(--color-rgba);
-    border-radius: 4px;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    position: relative;
+  background: var(--color-title-catalog);
+  box-shadow: 0 0 20px var(--color-rgba);
+  border: 1px solid var(--color-rgba);
+  border-radius: 4px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
 }
 
 .grid {
-    display: grid;
-    gap: 5px;
+  display: grid;
+  gap: 5px;
 }
 
 .grid input {
-    margin-bottom: 10px;
-    border: 1px solid var(--color-rgba);
-    padding: 1rem;
+  margin-bottom: 10px;
+  border: 1px solid var(--color-rgba);
+  padding: 1rem;
 }
 
-textarea:focus, input:focus {
-    box-shadow: 0 0 0 0;
-    outline: 0;
-    border: 1px solid var(--color-box-product);
+textarea:focus,
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  border: 1px solid var(--color-box-product);
 }
 
 #mensagem:focus {
-    border: 1px solid var(--color-box-product); 
+  border: 1px solid var(--color-box-product);
 }
 
 .grid button {
-    margin-top: 0.8rem;
-    padding: 1rem 1.5rem;
-    background: var(--color-title-backgroud);
-    color: var(--color-title-catalog);
-    border: none;
-    cursor: pointer;
+  margin-top: 0.8rem;
+  padding: 1rem 1.5rem;
+  background: var(--color-title-backgroud);
+  color: var(--color-title-catalog);
+  border: none;
+  cursor: pointer;
 }
 
-
 .grid button:hover {
-    background: var(--color-title-backgroud-hover);
-    color: var(--color-title-catalog);
+  background: var(--color-title-backgroud-hover);
+  color: var(--color-title-catalog);
 }
 
 .border textarea {
-    min-width: 100%;
-    display: block;
-    border: 1px solid var(--color-rgba);
-    resize: none;
+  min-width: 100%;
+  display: block;
+  border: 1px solid var(--color-rgba);
+  resize: none;
 }
 
-
 footer {
-    background: var(--color-title-backgroud);
-    color: var(--color-title-catalog);
-    padding: 1rem;
-    text-align: center;
+  background: var(--color-title-backgroud);
+  color: var(--color-title-catalog);
+  padding: 1rem;
+  text-align: center;
 }
