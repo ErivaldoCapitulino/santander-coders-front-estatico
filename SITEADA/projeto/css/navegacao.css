@@ -1,0 +1,17 @@
+.navbar-brand {
+  font-family: 'Dancing Script', cursive;
+}
+
+.navbar-brand span {
+  font-weight: bold;
+  font-size: 32px;
+  color: var(--white);
+}
+
+ .navbar-toggler{
+  background: var(--white);
+}
+
+.nav-item a {
+  color: var(--white)
+}
